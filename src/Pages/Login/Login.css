@@ -1,0 +1,40 @@
+.loginParent {
+  height: 800px;
+}
+
+/* .loginParent {
+  padding: 50px;
+} */
+
+.imgContainerLog {
+  border-radius: 20px;
+  width: 40% !important;
+  height: 470px !important;
+}
+.logForm {
+  width: 45% !important;
+  padding: 25px;
+}
+@media (max-width: 767px) {
+  .logForm {
+    width: 80% !important;
+    height: 100%;
+    z-index: 100;
+  }
+
+  .loginParent {
+    position: relative !important;
+  }
+
+  .imgContainerLog {
+    width: 90% !important;
+    height: 90% !important;
+    position: absolute;
+    /* opacity: 0.7; */
+  }
+}
+
+.form-control {
+  padding: 0.7rem !important;
+  /* background-color: yellow !important; */
+}

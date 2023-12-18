@@ -1,0 +1,186 @@
+body,
+* {
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: none !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --mint-green: #8dd3bb;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--mint-green) !important;
+  /* color: black !important; */
+  border-color: var(--mint-green) !important;
+}
+
+input[type="checkbox"]:checked:after {
+  /* content: "\2713"; */
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.url-colored {
+  color: var(--mint-green) !important;
+  text-decoration: underline solid var(--mint-green) !important;
+}
+
+.submitBtn {
+  border: none;
+  outline: none;
+  background-color: var(--mint-green);
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  transform: 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: rgb(141, 211, 187, 0.8);
+}
+
+.submitBtn-disabled {
+  border: none;
+  outline: none;
+  /* background-color: rgb(141, 211, 187, 0.5); */
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  transform: 0.3s ease;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin: 20px auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.loader::after {
+  content: "";
+  width: 48px;
+  height: 48px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  border-radius: 50% 50% 0;
+  border: 15px solid red;
+  transform: rotate(45deg) translate(0, 0);
+  box-sizing: border-box;
+  animation: animMarker 0.4s ease-in-out infinite alternate;
+}
+
+.loader::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 150%;
+  width: 24px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.2);
+  animation: animShadow 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes animMarker {
+  0% {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  100% {
+    transform: rotate(45deg) translate(-5px, -5px);
+  }
+}
+
+@keyframes animShadow {
+  0% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+.CardClicker{
+  cursor: pointer;
+}
+.LoaderParent {
+  height: 100vh;
+  width: 100vw;
+}
+.sweet-warning{
+  background-color:var(--mint-green) ;
+  color: black;
+}
+.sweet-warning:hover{
+  background-color:var(--mint-green) !important;
+  color: black !important;
+}
+.swal-button--cancel{
+  background-color: rgba(199, 26, 26, 0.797) !important;
+  color: white !important;
+}
+
+.inputClass{
+  width: fit-content;
+}
+.coolinput label.text{
+  z-index: 500;
+}
+.favParent{
+  margin: 100px 0;
+
+}
+
+.noFavParent{
+  padding: 100px 0;
+}
+.rightCardparent{
+height: 300px;
+}
+.fa-microphone-lines{
+  border: 1px solid rgb(0, 0, 0);
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.speachParent,.deleteParen{
+  position: absolute;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
+  transform: translate(-75%,-40%);
+  cursor: pointer;
+}
+.deleteParen{
+right: 15px;
+color: red;
+}
+.speachRelative{
+  position: relative;
+}

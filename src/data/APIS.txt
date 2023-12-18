@@ -1,0 +1,17 @@
+1- aya -------LoginForm
+
+2-Zolfa --------- LoginForm Logic
+
+3-gamal --------- paymentMethods
+
+4-omar---------- searchResult and cardDetails
+
+5- mahmoud ------------account Page
+
+6- gaber --------- HomePage and layout
+
+
+Links ..
+
+https://uiverse.io/micaelgomestavares/purple-cow-92
+https://rapidapi.com/DataCrawler/api/tripadvisor16

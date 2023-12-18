@@ -1,0 +1,111 @@
+.navbarParent {
+  font-size: 14px;
+  position: fixed !important;
+  width: 70% !important;
+  top: 10px !important;
+  background-color: white !important;
+  z-index: 999;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+}
+
+.FavouriteBorder {
+  position: relative;
+  padding-right: 5px !important;
+}
+
+.FavouriteBorder::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 30%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -1px;
+  background-color: black;
+}
+
+.nav-link {
+  position: relative;
+  text-align: center;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.logoBrand {
+  cursor: pointer;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 0;
+  border-radius: 10px;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  transition: 0.8s;
+}
+.nav-link:hover::after {
+  width: 100%;
+  background-color: #8dd3bb !important;
+}
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  right: 0;
+  border-radius: 10px;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  transition: 0.8s;
+}
+.nav-link:hover::before {
+  background-color: #8dd3bb !important;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .FavouriteBorder::after {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 30%;
+    top: 30px;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    background-color: black;
+  }
+
+  .nav-link {
+    width: 95px;
+    justify-content: space-between;
+  }
+}
+
+.NavbarButton {
+  color: #8dd3bb;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.btnLogOut {
+  width: 40px !important;
+  height: 40px !important;
+  font-size: 12px !important;
+}
+.logoBrand img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}

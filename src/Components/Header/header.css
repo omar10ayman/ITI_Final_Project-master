@@ -1,0 +1,106 @@
+.headerParent {
+    height: 537px;
+    position: relative;
+
+}
+
+.content {
+    width: 50%;
+}
+
+@media(max-width:767px) {
+    .content {
+        width: 100%;
+    }
+    .formParent{
+        width: 70%;
+    }
+}
+
+.formParent {
+    width: 90%;
+    position: relative;
+    left: 50%;
+    height: 255px;
+    transform: translate(-50%,-25%);
+    border-radius: 16px;
+    box-shadow: 0 0 5px 2px lightgrey;
+}
+
+.coolinput {
+    display: flex;
+    flex-direction: column;
+}
+
+.coolinput label.text {
+    font-size: 0.75rem;
+    color: #000000;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: white;
+    width: fit-content;
+}
+
+.coolinput input[type=text].input,
+.coolinput input[type=date].input,
+[name="guestNumbers"] {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #010101 solid;
+    border-radius: 5px;
+    background: white;
+}
+
+.coolinput input[type=text].input:focus {
+    outline: none;
+}
+[ value="Show Places" ]{
+    background-color: #8DD3BB;
+    border: none;
+    font-size: 12px;
+    padding:10px;
+    border-radius: 10px;
+}
+.addGuest{
+    width: 200px;
+    box-shadow: 0 0 5px 2px lightgrey;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    left: 0%;
+    top: 105%;
+    background-color: #ffffff;
+    transform: translateX(-50%);
+    
+}
+.addArea button{
+    border: none;
+
+    background-color: transparent !important;
+}
+.addArea{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.Guests{
+    position: relative;
+}
+[ name="roomguest"]{
+    cursor: pointer;
+}
+.DoneBtnAddGuest{
+    border: none;
+    border-radius: 10px;
+    background-color:#8DD3BB ;
+    transition: 0.5s;
+}
+.DoneBtnAddGuest:hover{
+   color: #8DD3BB;
+    background-color:#000000 ;
+}
+[role="alert"]{
+    display:none;
+}

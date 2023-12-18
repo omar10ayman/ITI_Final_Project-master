@@ -1,0 +1,149 @@
+.account__bg-img {
+  min-height: 300px;
+  border-radius: 20px;
+}
+
+.account__btn {
+  font-size: 13px !important;
+  cursor: pointer;
+}
+
+.coverBox {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 60px;
+  border: 1px solid grey;
+}
+.coverBoxParent {
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+@media (max-width: 575px) {
+  .account__btn {
+    bottom: 46px;
+  }
+}
+
+.account__avatar {
+  margin-top: -50px;
+  position: relative;
+}
+
+.account__avatar__img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  position: relative;
+  z-index: 15;
+}
+
+.account__selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  background: var(--Neutrals, #fff);
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05);
+}
+
+.account__selection > a {
+  color: #000;
+}
+
+.account__selection.account__main-links > a {
+  width: 33% !important;
+}
+
+.account__selection .line {
+  border-left: 1px #d7e2ee solid;
+  padding-left: 24px;
+}
+
+.account__info {
+  padding: 24px 32px;
+  background-color: #fff;
+  box-shadow: 0 0 5px 5px lightgray;
+}
+
+.account__info span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.75;
+}
+@media (max-width: 575px) {
+  .account__brdr {
+    padding: 0 10px !important;
+  }
+  .account__brdr > h4 {
+    font-size: 13px;
+    text-align: left !important;
+  }
+}
+
+.bg {
+  background: #fafbfc;
+}
+
+.account__info h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.account__info .btn {
+  padding: 15px 30px;
+  border-color: #8dd3bb !important;
+}
+
+.account__brdr.active {
+  position: relative;
+}
+
+.account__brdr.active::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #8dd3bb;
+}
+
+.coverImgs {
+  width: 500px;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  z-index: 200;
+  border-radius: 20px;
+}
+
+.avatarName {
+  box-shadow: 0 0 8px 5px lightgray;
+  padding: 10px;
+  border-radius: 12px;
+}
+[aria-labelledby="contained-modal-title-vcenter"] {
+  z-index: 20;
+}
+@media (max-width: 767px) {
+  .coverBox {
+    width: 70px !important;
+    height: 70px !important;
+  }
+}
+.AccountInPut:focus{
+outline: none;
+} 
+
+.AccountInPut{
+  cursor: default;
+}

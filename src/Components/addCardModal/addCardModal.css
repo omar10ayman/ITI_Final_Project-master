@@ -1,0 +1,30 @@
+.card-sub-label {
+  font-size: 14px !important;
+  top: -25% !important;
+  position: absolute !important;
+  z-index: 100 !important;
+  padding: 0 10px !important;
+  /* background-color: red !important; */
+  background-color: white !important;
+  border-radius: 10px !important;
+}
+
+.card-input {
+  position: relative;
+}
+
+.book-btn {
+  background-color: #8dd3bb !important;
+  color: black !important;
+  border: none !important;
+}
+
+.modal-content {
+  box-shadow: 0 0 7px 5px lightgray !important;
+  border-radius: 35px !important;
+  padding: 20px !important;
+}
+
+.ModalParent {
+  padding: 0 !important;
+}

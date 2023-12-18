@@ -1,0 +1,16 @@
+.seeAllBtn{
+    border: 1px solid #8DD3BB;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+.seeAllBtn:hover{
+    background-color: #8DD3BB;
+}
+@media(max-width:767px){
+    .seeAllBtn{
+        width: 70px;
+    }
+}

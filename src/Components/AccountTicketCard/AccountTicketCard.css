@@ -1,0 +1,21 @@
+.line-heigh {
+    line-height: 0.2;
+}
+.ticket-info span {
+    font-size: 12px;
+}
+.ticket-info p {
+    font-size: 14px;
+}
+.download-ticket-btn {
+    border: none;
+    background-color: #8DD3BB;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+.ticket-info svg {
+    background-color: #EBF6F2;
+}
+.flight-shadow {
+    box-shadow: 0 0 10px 2px lightgray;
+}

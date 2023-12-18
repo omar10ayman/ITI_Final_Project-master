@@ -1,0 +1,16 @@
+علشان تعمل pull لاول مره ..
+git remote add origin https://github.com/zolfa-gad/ITI_Final_Project.git 
+
+git pull origin master
+
+
+
+علشان نعمل push للداتا بتعاعتنا ..
+git add .
+git commit -m "message"
+git pull origin master
+git push origin master
+
+
+
+

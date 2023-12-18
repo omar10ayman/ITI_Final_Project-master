@@ -1,0 +1,112 @@
+/* :root {
+  --darkreader-neutral-background: #131516;
+  --darkreader-neutral-text: #d8d4cf;
+  --darkreader-selection-background: #004daa;
+  --darkreader-selection-text: #e8e6e3;
+}
+
+
+table {
+  border-color: #545b5e;
+}
+::placeholder {
+  color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color: #404400 !important;
+  color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+  background-color: #202324;
+  color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+  background-color: #181a1b;
+}
+::selection {
+  background-color: #004daa !important;
+  color: #e8e6e3 !important;
+}
+::-moz-selection {
+  background-color: #004daa !important;
+  color: #e8e6e3 !important;
+} */
+
+:root {
+  --mint-green-1: #1b4e3b;
+  --mint-green-2: #267055;
+  --mint-green-3: #32926f;
+  --mint-green-4: #3eb489;
+  --mint-green-5: #5ac69f;
+  --mint-green-6: #7cd2b3;
+  --mint-green-7: #9edec6;
+  --mint-green-8: rgb(160, 222, 200, 0.5);
+}
+
+@keyframes svgAnimate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(12px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.notFoundImage svg,
+.textTalk {
+  animation: svgAnimate 3s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+.textTalk p {
+  color: #982245;
+}
+
+@keyframes zeroAnimate {
+  0% {
+    transform: translateX(0) translateY(0) scale(1);
+  }
+  50% {
+    transform: translateX(-25px) translateY(-25px) scale(1.1);
+    /* rotate3d(0, 1, 0, 50%); */
+  }
+  100% {
+    transform: translateX(0) translateY(0) scale(1);
+    /* rotate3d(0, 1, 0, 0); */
+  }
+  /* scale: [{value: 1}, {value: 1.4}, {value: 1, delay: 250}], */
+  /* rotateY: {value: '+=180', delay: 200}, */
+}
+
+#zero {
+  background-color: red !important;
+  animation: zeroAnimate 10s linear infinite;
+  /* animation-delay: 3s; */
+  /* animation-direction: alternate; */
+  /* transform: rotateY(3.142rad); */
+}
+
+/* anime({
+  targets: '#zero',
+  translateX: 10,
+  autoplay: true,
+  loop: true,
+  easing: 'easeInOutSine',
+  direction: 'alternate',
+  scale: [{value: 1}, {value: 1.4}, {value: 1, delay: 250}],
+    rotateY: {value: '+=180', delay: 200},
+}); */

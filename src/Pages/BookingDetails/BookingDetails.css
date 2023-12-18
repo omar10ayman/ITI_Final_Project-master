@@ -1,0 +1,157 @@
+.card-header {
+  background-color: #ffffff !important;
+}
+.card-price {
+  font-weight: 700;
+  color: #ff8682;
+}
+.night {
+  font-weight: 700;
+  color: #ff8682;
+  font-size: 14px;
+}
+
+.body {
+  padding: 0;
+  border: 0.5px solid #8dd3bb !important;
+  border-radius: 8px;
+}
+
+.card-header h2 {
+  color: #112211;
+}
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #ff8682;
+  font-size: 14px;
+
+  font-weight: 500;
+}
+li .active {
+  color: #112211;
+  font-size: 14px;
+
+  font-weight: 500;
+}
+
+.body-img {
+  width: 63px !important;
+  height: 63px !important;
+  border-radius: 12px !important;
+}
+
+.card-text {
+  color: #112211;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.body-sub-img {
+  width: 18px;
+  height: 18px;
+}
+.card-sub-text {
+  font-size: 14px;
+  color: #112211;
+}
+
+.home-logo {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+.line {
+  width: 36px !important;
+  border: 1px;
+}
+
+.btn-cardds {
+  color: #112211;
+  background-color: #ffffff !important;
+  border-color: #8dd3bb !important;
+  padding: 8px 16px !important;
+  border-width: 1px !important;
+}
+
+.btn-text {
+  color: #112211;
+}
+
+.side-header-img {
+  width: 120px;
+  height: 120px;
+}
+
+.side-head {
+  font-size: 20px;
+}
+
+.img-header {
+  color: #112211;
+  font-size: 16px;
+  opacity: 0.7;
+  font-weight: 600;
+}
+.card-textt,
+.card-pricee,
+.revieew {
+  font-size: 16px;
+  font-weight: 500;
+  color: #112211;
+  line-height: 19.5px;
+}
+.card-pricee,
+.very {
+  font-weight: 600;
+}
+
+.body-location {
+  margin: 0 !important;
+}
+
+.modal-header {
+  line-height: 50.52px;
+  color: #000;
+}
+
+.visaDetails {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  border: none;
+  transform: translateY(-25%);
+}
+.inputVisa {
+  position: relative;
+}
+
+.labelText {
+  background-color: #ffffff;
+  margin: 0 5px;
+}
+
+.modal-content {
+  box-shadow: 0 0 7px 5px lightgray !important;
+  border-radius: 35px !important;
+  padding: 20px !important;
+}
+
+.BookinDetailParent {
+  margin: 100px 0;
+}
+.ModalParent {
+  padding: 0 !important;
+}
+
+.book-btn {
+  background-color: #8dd3bb !important;
+  color: black !important;
+  border: none !important;
+}
+/* .visaDetails {
+  z-index: 200;
+  right: -5px;
+} */

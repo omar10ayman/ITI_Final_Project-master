@@ -1,0 +1,14 @@
+.cardParent{
+    width: 260px;
+    height: 420px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.BookHotelBtn{
+    border: none;
+    background-color: #8DD3BB;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 5px 8px;
+    width: 80%;
+}

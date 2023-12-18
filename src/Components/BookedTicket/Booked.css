@@ -1,0 +1,144 @@
+.BookedTicketParent {
+    height: 300px;
+    position: relative;
+}
+
+.ticket {
+    border: 1px solid lightgrey;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 2px lightgray;
+}
+
+.ticketLeftSide {
+    width: 20%;
+
+    height: 100%;
+    background: #EBF6F2;
+}
+
+.ticketMiddleSide {
+    height: 100%;
+    width: 50%;
+}
+
+.ticketRightSide {
+    height: 100%;
+    width: 30%;
+}
+
+.LeftTop,
+.LeftBottom {
+    width: 100%;
+}
+
+.checkInTitle h6 {
+    font-size: 12px;
+}
+
+.svgContainer {
+    width: 40px;
+    height: 30%;
+}
+
+.MiddleTop {
+    height: 20%;
+    background: #8DD3BB;
+}
+
+.Middlebottom {
+    height: 80%;
+}
+
+.ticketImg,
+.ticketRoomsBooked {
+    width: 40%;
+    height: 100%;
+}
+
+.ticketRoomsBooked p {
+    font-size: 14px;
+}
+
+.BarCode {
+    width: 100%;
+    height: 80%;
+}
+
+.checkInAndOutData {
+    height: 20%;
+    width: 100%;
+}
+
+.checkInTime,
+.checkOutTime,
+.RoomNum {
+    width: 33, 33%;
+    height: 100%;
+
+}
+
+.timing p {
+    font-size: 10px;
+}
+
+.checkInTime,
+.checkOutTime,
+.RoomNum {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.BarCode p {
+    color: grey;
+    font-size: 10px;
+}
+
+.ticketImgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ticketImgContainer {
+    overflow: hidden;
+}
+
+@media(max-width:768px) {
+    .ticket {
+        width: 95%;
+    }
+
+    .ticket p {
+        font-size: 1.5vw;
+    }
+
+    .ticket h4,
+    .ticket h6 {
+        margin: 0 !important;
+        font-size: 12px;
+    }
+
+}
+
+.ticketImg img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.DownloadBtn {
+    position: absolute;
+   width: 40px;
+   height: 40px;
+    border-radius: 50%;
+    background-color: #8DD3BB;
+    bottom: 75%;
+    border: none;
+    left: 88%;
+    font-size: 14px;
+    transform: translateX(-50%);
+}
